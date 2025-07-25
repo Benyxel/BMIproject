@@ -9,45 +9,26 @@ h1, p , h2, h3, h4, h5, h6, label{
 }
 
 body{
-    background-color: rgba(223, 202, 193, 0.46);
-
+    background-image: url(./images/2150404923.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
-
 
 /* BMI HOME */
 
-.Hmain {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    gap: 35px;
-    transform: translate(-50%, -50%);
-    
+.welrs{
+    width: 900px;
+    height: 100vh;
+    padding: 0;
+  
+   top: 150px;
+   left: 100px;
 }
 
-.r-short-c{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    padding: 20px;
-    align-items: start;
-    gap: 5px;
-    
-}
-.next{
-    cursor: pointer;
-    position: absolute;
-    right: 10%;
-    bottom: 10%;
-    padding: 8px 18px;
-    border: none;
-    background-color: #ec9d09;
-    border-radius: 5px;
-}
+
+
 
 .next a{
     text-decoration: none;
@@ -118,11 +99,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
+   
     gap: 35px;
-    transform: translate(-50%, -50%);
+    
     
 }
 

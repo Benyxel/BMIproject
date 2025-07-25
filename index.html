@@ -5,13 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BMI-home</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Share+Tech&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="bmi.css">
 </head>
 <body>
-    <div class="Hmain">
-        
-
-
+    <!-- <div class="Hmain">
         <div class="Hright">
             <div class="welbot">
                 <img width="100px" src="./images/christmas-gift-character.png" alt="">
@@ -35,8 +33,159 @@
                 </div>
                 
             </div>
+        </div> -->
+    
+
+<!-- 
+        <div class="main">
+
+
+
+        <div class="left">
+           <i class="fa-solid fa-bars"></i>
+           <i class="fa-regular fa-bell"></i>
+           <h3 class="userName" id="username">Hi UserName</h3>
+
+
+            <div class="short-left">
+                <div class="l-short-c">
+                    <div class="avater">
+                        <div class="avaimg">
+                            <img id="mprofile" src="./images/guyava.jpg" alt="">
+                            <img id="fprofile" src="./images/ladyava.jpg" alt="">
+                        </div>
+                        
+                        <div class="wrapper">
+                        <div class="custom-input">
+                            <input type="radio" id="male" name="gender">
+                            <label for="male">Male</label>
+                        </div>
+                        <div class="custom-input">
+                            <input type="radio" id="female" name="gender">
+                            <label for="female">Female</label>
+                        </div>
+                    </div>
+                    </div>
+
+                <div class="datatake">
+                    <div class="age">
+                        <p>Age</p>
+                        <input type="number" required id="age">
+                    </div>
+
+                    <div class="weight">
+                        <p>Weight</p>
+                        <input type="number" required id="weight">
+                    </div>
+
+
+                    <div class="height">
+                        <p>Height</p>
+                        <input type="number" required id="height">
+                    </div>
+
+
+                    <div class="btn" >
+                        <button onclick="BMI()" id="btn">Calculate Your BMI</button>
+                    </div>
+                    
+                </div>
+
+                </div>
+                
+            </div>
+        </div>
+
+
+    <div class="right">
+        <div class="short-right">
+            <div class="r-short-c">
+
+                <!-- <div class="ravaimg">
+                    <img id="imgresult" src="" alt="">
+                </div> -->
+                <!-- <div class="output-c">
+                    <div class="namgender">
+                        <div>
+                            <h5>Name</h5>
+                            <p id="username2"></p>
+                        </div>
+                        <div>
+                            <h5>Gender</h5>
+                            <p id="gender"></p>
+                        </div>
+                    </div>
+                   
+
+
+                    <div class="output">
+                        <div>
+                            <h5>Age</h5>
+                            <p id="ageOP"></p>
+                        </div>
+
+                        <div>
+                            <h5>Height</h5>
+                            <p id="hresult"></p>
+                        </div>
+
+                        <div>
+                            <h5>Weight</h5>
+                            <p id="Wresult"></p>
+                        </div>
+                        
+                    </div>
+
+                    <div class="bmir">
+                        <h5>Your BMI</h5>
+                        <h6 id="ybmi"></h6>
+
+                        <div class="note">
+                            <p>Note:</p>
+                            <P id="advice"></P>
+                        </div>
+                        
+                    </div>
+                    
+                    
+                </div>
+
+                <div class="bmical">
+                    <h6 id="bmical" >0</h6>
+                </div>
+
+            </div>
+            
+            
+            
         </div>
     </div>
+</div>  -->
+
+
+<div class="container row">
+        <div class="welrs col">
+            <div class="c">
+                <img width="100px" src="./images/christmas-gift-character.png" alt="">
+            </div>
+            <h3>Welcome!</h3>
+        </div>
+        
+        <div class="card col">
+            <div class="">
+                <div class="">
+                    <div class="">
+                        <P>What is your name?</P>
+                        <input id="username" type="text"> 
+                    </div>
+                    </div>
+                <button onclick="next()" class="next">
+                    <a href="./bmi.html">Next</a>
+                </button>
+            </div>
+        </div>
+ </div>
     <script src="BMI.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>
