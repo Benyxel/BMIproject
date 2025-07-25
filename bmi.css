@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1, p , h2, h3, h4, h5, h6, label{
+    font-family:poppins;
+}
+
+body{
+    background-color: rgba(223, 202, 193, 0.46);
+
+}
+
+
+/* BMI HOME */
+
+.Hmain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    gap: 35px;
+    transform: translate(-50%, -50%);
+    
+}
+
+.r-short-c{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding: 20px;
+    align-items: start;
+    gap: 5px;
+    
+}
+.next{
+    cursor: pointer;
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    padding: 8px 18px;
+    border: none;
+    background-color: #ec9d09;
+    border-radius: 5px;
+}
+
+.next a{
+    text-decoration: none;
+    color: black;
+}
+
+.ipm{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.Hshort-right{
+    
+    position: relative;
+    margin-top: 335px;
+    width: 312px;
+    border-radius: 25px;
+    height: 280px;
+    background-color: white;
+    box-shadow: 7px 1px 15px rgba(0, 0, 0, 0.353);
+}
+
+.Hright h3{
+    font-weight: 600;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%,-50%);
+}
+.welbot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+
+}
+.welbot img{
+    padding-top: 60px;
+    width:150px;
+}
+
+.Hright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 615px;
+    background: linear-gradient( to top, rgb(250, 244, 240),rgb(227, 93, 20));
+    border-radius: 20px;
+}
+
+.r-short-c input{
+    width: 250px;
+    padding: 8px;
+    border: none;
+    box-shadow: 0px 5px 5px rgba(195, 106, 22, 0.582);
+    background-color: #fde6cfa5;
+}
+
+
+
+
+/* SECOND PAGE */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    gap: 35px;
+    transform: translate(-50%, -50%);
+    
+}
+
+.left{
+    position: relative;
+    padding-top:15px ;
+    width: 312px;
+    height: 615px;
+    background: linear-gradient( to top, rgb(250, 244, 240),rgb(227, 93, 20));
+    border-radius: 20px;
+}
+
+.fa-bars{
+    position: absolute;
+    left: 20px;
+    font-size: 20px;
+}
+
+.fa-bell{
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+}
+
+
+.userName{
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    font-weight: 600;
+}
+
+
+.short-left{
+    align-items: center;
+    margin-top: 135px;
+    width: 100%;
+    border-radius: 25px;
+    height: 480px;
+    background-color: white;
+    box-shadow: 7px 1px 15px rgba(0, 0, 0, 0.353);
+}
+
+.l-short-c{
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.avater{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.avater img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.avaimg{
+    display: flex;
+    gap: 30px;
+}
+
+.datatake{
+    max-width: 250px;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.age input{
+    width: 180px;
+    padding: 8px;
+    border: none;
+    box-shadow: 0px 5px 5px rgba(195, 106, 22, 0.582);
+    background-color: #fde6cfa5;
+}
+
+.age , .weight, .height{
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.weight input{
+    width: 180px;
+    padding: 8px;
+    border: none;
+    background-color: #fec790;
+}
+
+.height input{
+    width: 180px;
+    padding: 8px;
+    border: none;
+    background-color: #fec790;
+}
+
+.btn{
+    padding: 10px;
+    
+}
+
+.btn button{
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ec9d09;
+}
+
+
+.right{
+    padding-top: 15px;
+    width: 312px;
+    height: 615px;
+    background: linear-gradient( to top, rgb(250, 244, 240),rgb(227, 93, 20));
+    border-radius: 20px;
+}
+
+.short-right{
+    margin-top: 135px;
+    width: 312px;
+    border-radius: 25px;
+    height: 480px;
+    background-color: white;
+    box-shadow: 7px 1px 15px rgba(0, 0, 0, 0.353);
+}
+
+.output{
+    display: flex;
+}
+
+.ravaimg{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.r-short-c{
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.ravaimg img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.namgender, .bmir h5{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.bmir{
+    padding: 10px;
+    background-color:#fceafe ;
+    height: 60px;
+}
+
+.bmir p{
+    font-size: 12px;
+}
+.note{
+    display: flex;
+    gap: 3px;
+}
+.output h5{
+    font-size: 16px;
+    font-weight: 600;
+}
+.output{
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    background-color: #fde6cfa5;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.bmical h6{
+    position: absolute;
+    top: 20px;
+    font-size: 40px;
+}
+
+.bmical{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    border:solid 2px rgb(212, 143, 23);
+    width: 100px;
+    height: 100px;
+    padding: 60;
+    border-radius: 50%;
+}
+
+.namgender{
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    height: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #d7f0ff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.output-c{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+
+.wrapper {
+width: 200px;
+  display: flex;
+  padding: 2px;
+  background-color: #ec9d09;
+  border-radius: 5px;
+  
+}
+
+.custom-input {
+  flex-grow: 1;
+}
+
+.custom-input input[type=radio] {
+  display: none;
+}
+
+.custom-input label {
+  display: block;
+  padding: 4px 6px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  transition : all .1s 0s ease;
+  cursor: pointer;
+}
+
+.custom-input input[type=radio]:checked + label {
+  background-color: #f5f5f5;
+  color: #000;
+  border-radius: 4px;
+  cursor: pointer;
+}
