@@ -3,28 +3,87 @@
     padding: 0;
 }
 
-
 h1, p , h2, h3, h4, h5, h6, label{
-    font-family:poppins;
+    font-family: poppins, sans-serif;
 }
 
 body{
     background-image: url(./images/2150404923.jpg);
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden; 
 }
 
 /* BMI HOME */
 
 .welrs{
-    width: 900px;
-    height: 100vh;
-    padding: 0;
+    display: flex;
+    border-radius: 20px;
+    text-align: center;
   
-   top: 150px;
-   left: 100px;
+}
+.maind {
+
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  
+}
+.mainc{
+    min-width: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex ;
+    justify-content: space-around ;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.left-s{
+    width: 500px;
+    height: 500px;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    
+}
+.left-s h1{
+    color: #ffffff;
+}
+.right-s{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+
+}
+
+.right-sc{
+    padding: 40px;
+}
+
+
+
+.left-s img{
+    width: 300px;
+    height: auto;
+}
+
+
+.welrs h3 {
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 0;
 }
 
 
